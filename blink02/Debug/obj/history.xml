@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -DSTM32F103C8 -DSTM32F10X_MD -I..\..\..\workspace\blink02\cmsis_boot -I..\..\..\workspace -I..\..\..\workspace\blink02\cmsis -I..\..\..\workspace\blink02 -I..\..\..\workspace\blink02\stm_lib\inc -I..\..\..\workspace\blink02\stm_lib">
+      <target file="stm32f10x_adc.o" lastModified="1562ea4c392">
+         <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="155eb50dbc6"/>
+      </target>
+      <target file="stm32f10x_pwr.o" lastModified="1562ea4bbc7">
+         <source file="..\..\..\stm_lib\src\stm32f10x_pwr.c" lastModified="155eb4a1eaf"/>
+      </target>
+      <target file="syscalls.o" lastModified="1562ea4c514">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="155eb173286"/>
+      </target>
+      <target file="startup_stm32f10x_hd.o" lastModified="1562ea4bb13">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_hd.c" lastModified="155eaf6b3a2"/>
+      </target>
+      <target file="stm32f10x_rtc.o" lastModified="1562ea4b9be">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rtc.c" lastModified="155eb4a2d99"/>
+      </target>
+      <target file="printf.o" lastModified="1562ea4c07b">
+         <source file="..\..\..\stdio\printf.c" lastModified="155eb7427ba"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="1562ea4ba71">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="155eaf6b3a8"/>
+      </target>
+      <target file="stm32f10x_flash.o" lastModified="1562ea4c699">
+         <source file="..\..\..\stm_lib\src\stm32f10x_flash.c" lastModified="155eb4a4207"/>
+      </target>
+      <target file="main.o" lastModified="1562ea4bef1">
+         <source file="..\..\..\main.c" lastModified="155f0101813"/>
+      </target>
+      <target file="stm32f10x_usart.o" lastModified="1562ea4c460">
+         <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="155eb4a5377"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="1562ea4bc8f">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="155eaf6b394"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="1562ea4c1fd">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="155eaf6b39f"/>
+      </target>
+      <target file="stm32f10x_bkp.o" lastModified="1562ea4c96b">
+         <source file="..\..\..\stm_lib\src\stm32f10x_bkp.c" lastModified="155eb4b08da"/>
+      </target>
+      <target file="misc.o" lastModified="1562ea4c8b6">
+         <source file="..\..\..\stm_lib\src\misc.c" lastModified="155eb4a67a2"/>
+      </target>
+      <target file="stm32f10x_dma.o" lastModified="1562ea4c805">
+         <source file="..\..\..\stm_lib\src\stm32f10x_dma.c" lastModified="155eb50c46b"/>
+      </target>
+   </processor>
+</history>

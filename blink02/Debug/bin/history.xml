@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=blink02.map -O0 --gc-sections -lm -lgcc -lc -lnosys -LC:\CooCox\CoIDE\configuration\ProgramData\blink02 -TC:\CooCox\CoIDE\configuration\ProgramData\blink02/arm-gcc-link.ld -g">
+      <target file="blink02.elf" lastModified="1562ea4cd77">
+         <source file="..\obj\stm32f10x_rtc.o" lastModified="1562ea4b9be"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="1562ea4ba71"/>
+         <source file="..\obj\startup_stm32f10x_hd.o" lastModified="1562ea4bb13"/>
+         <source file="..\obj\stm32f10x_pwr.o" lastModified="1562ea4bbc7"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="1562ea4bc8f"/>
+         <source file="..\obj\main.o" lastModified="1562ea4bef1"/>
+         <source file="..\obj\printf.o" lastModified="1562ea4c07b"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="1562ea4c1fd"/>
+         <source file="..\obj\stm32f10x_adc.o" lastModified="1562ea4c392"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="1562ea4c460"/>
+         <source file="..\obj\syscalls.o" lastModified="1562ea4c514"/>
+         <source file="..\obj\stm32f10x_flash.o" lastModified="1562ea4c699"/>
+         <source file="..\obj\stm32f10x_dma.o" lastModified="1562ea4c805"/>
+         <source file="..\obj\misc.o" lastModified="1562ea4c8b6"/>
+         <source file="..\obj\stm32f10x_bkp.o" lastModified="1562ea4c96b"/>
+      </target>
+   </processor>
+</history>
